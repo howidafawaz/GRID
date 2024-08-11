@@ -1,0 +1,76 @@
+
+@media (min-width: 480px) and (max-width:990px) {
+    .parent {
+        display: grid;
+        grid-template-areas:
+            "learn_more learn_more"
+            "learn_more learn_more"
+
+            "iphone_text iphone_img"
+            "iphone_text iphone_img"
+            "iphone_text iphone_img"
+
+            "keyboard games"
+            "keyboard games"
+            "keyboard games"
+
+            "imac apple_text"
+            "imac apple_text"
+            "imac apple_text"
+
+            "twitter icloud"
+            "twitter icloud"
+            "twitter icloud"
+
+            "tablet icloud"
+            "tablet icloud"
+            "tablet icloud"
+
+            "popular popular"
+
+            "tv_img tv_text"
+            "tv_img tv_text"
+            "tv_img tv_text"
+
+
+        ;
+    }
+}
+
+
+
+@media (min-width: 990px) {
+    .parent {
+        display: grid;
+        grid-template-areas:
+            "iphone_text iphone_text iphone_text iphone_img iphone_img iphone_img learn_more learn_more learn_more learn_more learn_more learn_more"
+            "iphone_text iphone_text iphone_text iphone_img iphone_img iphone_img learn_more learn_more learn_more learn_more learn_more learn_more"
+
+            "keyboard keyboard keyboard imac imac imac apple_text apple_text apple_text icloud icloud icloud"
+            "keyboard keyboard keyboard imac imac imac apple_text apple_text apple_text icloud icloud icloud"
+
+            "games games games tablet tablet tablet tablet tablet tablet icloud icloud icloud"
+            "games games games tablet tablet tablet tablet tablet tablet icloud icloud icloud"
+
+            "twitter twitter twitter popular popular popular tv_img tv_img tv_img tv_text tv_text tv_text"
+        ;
+    }
+}
+
+
+
+
+
+
+
+
+/* "iphone_text iphone_text iphone_text iphone_img iphone_img iphone_img learn_more learn_more learn_more learn_more learn_more learn_more"
+"iphone_text iphone_text iphone_text iphone_img iphone_img iphone_img learn_more learn_more learn_more learn_more learn_more learn_more"
+
+"keyboard keyboard keyboard imac imac imac apple_text apple_text apple_text icloud icloud icloud"
+"keyboard keyboard keyboard imac imac imac apple_text apple_text apple_text icloud icloud icloud"
+
+"games games games tablet tablet tablet tablet tablet tablet icloud icloud icloud"
+"games games games tablet tablet tablet tablet tablet tablet icloud icloud icloud"
+
+"twitter twitter twitter popular popular popular tv_img tv_img tv_img tv_text tv_text tv_text" */

@@ -1,0 +1,495 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item span {
+    font-family: "Arvo", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    margin: 20px;
+}
+
+img {
+    display: block;
+}
+
+.item h1,
+.item h2 {
+    font-family: "Arvo", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "learn_more"
+        "iphone_text"
+        "iphone_img"
+        "keyboard"
+        "games"
+        "imac"
+        "apple_text"
+        "twitter"
+        "tablet"
+        "icloud"
+        "popular"
+        "tv_img"
+        "tv_text"
+    ;
+}
+
+/* .learn_more_section */
+.learn_more {
+    background-color: #F7F8F9;
+    grid-area: learn_more;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.learn_more .learn_more_content span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9FA3A7;
+}
+
+.learn_more .learn_more_content h1 {
+    font-family: "Arvo", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.learn_more .learn_more_content a {
+    font-family: "Open Sans", sans-serif;
+    color: #27B9C2;
+}
+
+/* iphone_text_section  */
+.iphone_text {
+    background-color: #FFFFFF;
+    grid-area: iphone_text;
+    padding: 40px 30px 0px;
+}
+
+.iphone_text span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9FA3A7;
+}
+
+.iphone_text span.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #9FA3A7;
+}
+
+.iphone_text h2 {
+    line-height: normal;
+}
+
+/* iphone_img_section  */
+div.iphone_img {
+    background-color: rgb(255, 255, 255);
+    grid-area: iphone_img;
+    padding: 0px;
+    margin: 0px;
+}
+
+.iphone_img div {
+    width: 100%;
+    text-align: center;
+}
+
+.iphone_img div img {
+    width: 70%;
+    margin: 50px 0px 0px;
+    margin: auto;
+}
+
+/* keyboard_section  */
+.keyboard {
+    background-color: #F05638;
+    grid-area: keyboard;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.keyboard a {
+    font-family: "Open Sans", sans-serif;
+    color: #FFC80A;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.keyboard h2 {
+    color: #FFFBFB;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 50px 20px;
+    line-height: 40px;
+}
+
+.keyboard img {
+    width: 80%;
+    margin: auto;
+}
+
+/* games_section */
+.games {
+    background-color: #F7F8F9;
+    grid-area: games;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.games a {
+    font-family: "Open Sans", sans-serif;
+    color: #27B9C2;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.games h2 {
+    color: #333333;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 10px 50px 20px;
+    line-height: 40px;
+}
+
+.games img {
+    width: 70%;
+    margin: auto;
+}
+
+/* imac_section */
+.imac {
+    background-color: rgb(255, 255, 255);
+    grid-area: imac;
+    padding: 40px 30px 0px;
+}
+
+.imac span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9FA3A7;
+}
+
+.imac div {
+    width: 100%;
+}
+
+.imac img {
+    width: 100%;
+}
+
+/* apple_text_section */
+.apple_text {
+    background-color: rgb(255, 255, 255);
+    grid-area: apple_text;
+    padding: 30px;
+}
+
+.apple_text div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple_text a {
+    font-family: "Open Sans", sans-serif;
+    color: #27B9C2;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.apple_text p {
+    color: #9FA3A7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* twitter_section */
+.twitter {
+    background-color: #38D5F4;
+    grid-area: twitter;
+}
+
+.twitter .circle_content {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #35CFED;
+    text-align: center;
+    padding: 50px 30px;
+    margin: auto;
+}
+
+.twitter .circle_content img {
+    width: 50px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.twitter .circle_content h2 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0px;
+    
+}
+
+/* tablet_section */
+.tablet {
+    background-color: #93B6B7;
+    grid-area: tablet;
+}
+
+.tablet .tablet_text div {
+    width: 100px;
+    height: 18px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #FA684F;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tablet .tablet_text h2 {
+    text-align: center;
+    color: #FFFBFB;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 10px 50px 20px;
+    line-height: 15px;
+    margin: 30px;
+}
+
+.tablet .tablet_img {
+    /* padding: 40px; */
+    background-image: url(../imgs/ux.png);
+    background-size: cover;
+}
+
+.tablet .tablet_img img {
+    width: 90%;
+}
+
+/* icloud_section */
+.icloud {
+    background-color: #8F76BC;
+    grid-area: icloud;
+    padding: 20px 0px 0px;
+}
+
+.icloud .icloud_img {
+    width: 90%;
+    border-radius: 50%;
+    background-color: #8166B0;
+    display: grid;
+    grid-template-areas:
+        "icon"
+        "img_card"
+        "meet";
+    justify-items: center;
+    /* align-items: center; */
+    align-content: space-around;
+    margin: auto;
+}
+
+.icloud .icloud_img .icon {
+    width: 100px;
+    height: 30px;
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #8B72B6;
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    grid-area: icon;
+    margin: 20px;
+    padding: 5px;
+}
+
+.icloud .icloud_img .icon i {
+    color: yellow;
+    font-size: 15px;
+}
+
+.icloud .icloud_img .icon h5 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 2px;
+}
+
+.icloud_img img {
+    width: 100%;
+    /* background-color: #F05638; */
+}
+
+.icloud_img div {
+    width: 60%;
+    grid-area: img_card;
+    /* background-color: aqua; */
+}
+
+.icloud .icloud_img span {
+    grid-area: meet;
+    margin: 0px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.icloud_text {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "icloud"
+        "parag"
+        "div_btn";
+    justify-items: center;
+    align-content: space-around;
+    padding: 30px 0px;
+}
+
+.icloud_text h2 {
+    font-family: "Arvo", serif;
+    color: #ffffff;
+    grid-area: icloud;
+    margin: 0px;
+}
+
+.icloud_text p {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    grid-area: parag;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.icloud_text div {
+    width: 150px;
+    height: 50px;
+    background-color: #FFC80A;
+    border-radius: 50px;
+    grid-area: div_btn;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* popular_section */
+.popular {
+    background-color: #F7F8F9;
+    grid-area: popular;
+    padding: 30px 0px;
+}
+
+.popular div {
+    width: 90px;
+    border-radius: 8px;
+    background-color: #7BC424;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.popular h2 {
+    color: #333333;
+    text-align: center;
+    line-height: 30px;
+    /* margin: 30px 0px; */
+    font-size: 24px;
+}
+
+/* tv_img_section */
+.tv_img {
+    background-color: #2C2C2C;
+    grid-area: tv_img;
+    padding: 0px 10px 0px 40px;
+}
+
+.tv_img img {
+    width: 100%;
+    margin: 0px;
+    background-color: #2C2C2C;
+    display: block;
+}
+
+/* tv_text_section */
+.tv_text {
+    background-color: #2C2C2C;
+    grid-area: tv_text;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background-color: #2C2C2C;
+}
+
+.tv_text h2 {
+    color: #ffffff;
+    font-size: 21px;
+}
